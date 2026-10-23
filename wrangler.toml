@@ -1,0 +1,13 @@
+name = "universal-bypass-api"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Free plan friendly defaults
+workers_dev = true
+
+[vars]
+# No secrets required; upstream is public free tier
+
+# Optional: bind a custom domain later via dashboard
+# routes = [{ pattern = "bypass.example.com/*", zone_name = "example.com" }]
